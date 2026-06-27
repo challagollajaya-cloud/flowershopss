@@ -36,4 +36,4 @@ jobs:
         run: docker build -t flowershopregistry.azurecr.io/flowershop-api:latest .
 
       - name: Push Docker image
-        run: docker push flowershopregistry.azurecr.io/flowe
+        run: docker push flowershopregistry.azurecr.io/flowershop-api:latest
